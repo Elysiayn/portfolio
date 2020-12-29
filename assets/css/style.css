@@ -50,6 +50,11 @@ nav {
     background-color:rgb(102, 36, 91);
 }
 
+/* Middle Work Section Styling */
+.middle {
+    background-color: rgb(97, 99, 130);
+}
+
 /* Footer */
 .page-footer {
     background-color: rgb(102, 36, 91);
