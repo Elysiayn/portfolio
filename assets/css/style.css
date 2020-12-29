@@ -6,11 +6,6 @@ body {
     background-color: rgb(229, 234, 164); 
 }
 
-.container {
-    width: 1024px;
-    margin: 0 auto;
-}
-
 #main-bio,
 #contact-info,
 #bio-image {
@@ -30,3 +25,19 @@ body {
     height: 200px;
     margin-right: 20px;
 }
+
+/* Banner */
+#banner {
+/* background: url('images/banner-img.png'); */
+background-size:cover;
+background-position:center;
+background-repeat: no-repeat;
+position: relative;
+}
+
+/* Media Queries */
+/* @media screen and (max-width:670px) {
+    header{
+        min-height: 500px;
+    }
+} */
