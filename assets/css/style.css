@@ -6,6 +6,16 @@ body {
     background-color: rgb(229, 234, 164); 
 }
 
+.row {
+    margin: 0%;
+}
+
+.container {
+    display: grid;
+    grid-gap: 50px;
+    flex: 1 0 auto;
+}
+
 #main-bio,
 #contact-info,
 #bio-image {
@@ -27,12 +37,22 @@ body {
 }
 
 /* Banner */
-#banner {
+.banner {
 /* background: url('images/banner-img.png'); */
 background-size:cover;
 background-position:center;
 background-repeat: no-repeat;
 position: relative;
+}
+
+/* NavBar */
+nav {
+    background-color:rgb(102, 36, 91);
+}
+
+/* Footer */
+.page-footer {
+    background-color: rgb(102, 36, 91);
 }
 
 /* Media Queries */
