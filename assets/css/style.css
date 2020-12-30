@@ -16,6 +16,17 @@ body {
     flex: 1 0 auto;
 }
 
+.card {
+    border-radius: 20px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-content: center;
+}
+
 #main-bio,
 #contact-info,
 #bio-image {
@@ -48,6 +59,31 @@ position: relative;
 /* NavBar */
 nav {
     background-color:rgb(102, 36, 91);
+    font-family: 'metamorphous';
+}
+
+/* About Me */
+.aboutTitle {
+    font-family: 'metamorphous';
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 5px;
+}
+
+/* .card.horizontal.about {
+    background-color: rgb(168, 196, 162);
+    max-height: 30%;
+    border: 10px;
+} */
+
+/* .aboutImg {
+    max-height: 50%;
+    border-radius:20px
+} */
+
+.aboutText {
+    font-family: 'metamorphous';
+    font-weight: bolder;
 }
 
 /* Middle Work Section Styling */
