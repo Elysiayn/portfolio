@@ -38,6 +38,10 @@ img {
     font-size: 5px;
 }
 
+.aboutMeDiv {
+    float:left;
+}
+
 h4 {
     font-family: 'metamorphous';
     font-weight: bolder;
