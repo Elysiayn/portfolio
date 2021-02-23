@@ -1,6 +1,11 @@
 
 body {
     background-color: rgb(105, 165, 164); 
+    /* text-align: center; */
+    /* margin: 0;
+     */
+    /* height: 100%;
+    width: 100%; */
 }
 
 .row {
@@ -19,6 +24,12 @@ nav {
     font-family: 'metamorphous';
 }
 
+img {
+    /* float: left; */
+    /* padding: 0px 3px 0px 0px; */
+    margin: 5px;
+}
+
 /* About Me */
 .aboutTitle {
     font-family: 'metamorphous';
@@ -35,6 +46,8 @@ h4 {
 .aboutText {
     font-family: 'metamorphous';
     font-weight: bolder;
+    /* display: inline-block; */
+    float:left;
 }
 
 /* Middle Work Section Styling */
