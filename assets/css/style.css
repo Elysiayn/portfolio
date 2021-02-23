@@ -1,8 +1,5 @@
 
 body {
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(105, 165, 164); 
 }
 
@@ -10,51 +7,11 @@ body {
     margin: 0%;
 }
 
-.container {
-    display: grid;
-    grid-gap: 50px;
-    flex: 1 0 auto;
-}
-
-.card {
-    border-radius: 20px;
-}
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    align-content: center;
-}
-
-#main-bio,
-#contact-info,
-#bio-image {
-    float: left;
-}
-
-#main-bio {
-    width: 70%;
-}
-
-#contact-info {
-    width: 70%
-}
-
-#bio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
+.w-100 {
+    width: 100% !important;
 }
 
 /* Banner */
-.banner {
-/* background: url('images/banner-img.png'); */
-background-size:cover;
-background-position:center;
-background-repeat: no-repeat;
-position: relative;
-}
 
 /* NavBar */
 nav {
@@ -70,16 +27,10 @@ nav {
     font-size: 5px;
 }
 
-/* .card.horizontal.about {
-    background-color: rgb(168, 196, 162);
-    max-height: 30%;
-    border: 10px;
-} */
-
-/* .aboutImg {
-    max-height: 50%;
-    border-radius:20px
-} */
+h4 {
+    font-family: 'metamorphous';
+    font-weight: bolder;
+}
 
 .aboutText {
     font-family: 'metamorphous';
@@ -89,16 +40,9 @@ nav {
 /* Middle Work Section Styling */
 .middle {
     background-color: rgb(97, 99, 130);
-}
+} 
 
 /* Footer */
 .page-footer {
     background-color: rgb(102, 36, 91);
 }
-
-/* Media Queries */
-/* @media screen and (max-width:670px) {
-    header{
-        min-height: 500px;
-    }
-} */
