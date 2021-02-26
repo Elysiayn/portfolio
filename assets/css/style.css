@@ -18,6 +18,22 @@ body {
 
 /* Banner */
 
+.banner {
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg);
+    /* background-image: url(https://cdn.pixabay.com/photo/2018/04/29/01/15/coast-3358815_960_720.jpg); */
+}
+
+#bannerTitle {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
 /* NavBar */
 nav {
     background-color:rgb(102, 36, 91);
