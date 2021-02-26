@@ -21,18 +21,19 @@ body {
 /* NavBar */
 nav {
     background-color:rgb(102, 36, 91);
-    font-family: 'metamorphous';
+    font-family: 'Shippori Mincho B1', serif;
 }
 
 img {
     /* float: left; */
     /* padding: 0px 3px 0px 0px; */
-    margin: 5px;
+    margin-top:30%;
+    /* margin-top:50px; */
 }
 
 /* About Me */
 .aboutTitle {
-    font-family: 'metamorphous';
+    font-family: 'Shippori Mincho B1', serif;
     font-weight: bold;
     text-decoration: underline;
     font-size: 5px;
@@ -42,16 +43,25 @@ img {
     float:left;
 }
 
-h4 {
-    font-family: 'metamorphous';
+h1 {
+    font-family: 'Shippori Mincho B1', serif;
     font-weight: bolder;
+    /* margin-top:15%; */
+}
+
+p {
+    /* margin: .2; */
+    /* padding: .2; */
+    /* letter-spacing: 1px; */
+    /* font-size: 1.25rem; */
+    text-shadow:rgb(97, 99, 130);
 }
 
 .aboutText {
-    font-family: 'metamorphous';
+    font-family: 'Shippori Mincho B1', serif;
     font-weight: bolder;
     /* display: inline-block; */
-    float:left;
+    /* float:left; */
 }
 
 /* Middle Work Section Styling */
