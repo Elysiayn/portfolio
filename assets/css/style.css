@@ -1,12 +1,11 @@
 
-body {
+/* body {
     background-color: rgb(105, 165, 164); 
-    /* text-align: center; */
-    /* margin: 0;
-     */
-    /* height: 100%;
-    width: 100%; */
-}
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+} */
 
 .row {
     margin: 0;
@@ -29,30 +28,33 @@ body {
     background-image: url(https://wallpapercave.com/wp/wp3387879.jpg);
 }
 
+/* .banner .card {
+    
+} */
+
 /* .banner#card-content {
     font-family: 'Shippori Mincho B1', serif;
 } */
 
-#bannerAction {
-    color: rgb(105, 165, 164) !important;
-}
-
-#bannerCard {
+.bannerCard {
     border-radius: 30px;
-    margin-top: 20%;
+    margin-top: 15%;
     font-family: 'Shippori Mincho B1', serif;
+    background-color: rgba(255, 255, 255, .8);
+    /* color: rgb(105, 165, 164) !important; */
+    text-shadow: rgb(39, 39, 41) !important;
+    /* opacity: .5; */
 }
 
 #bannerTitle {
     text-align: center;
     justify-content: center;
     justify-items: center;
-    font-family: 'Shippori Mincho B1', serif;
 }
 
 /* NavBar */
 nav {
-    background-color: rgb(105, 165, 164);;
+    background-color: #26a69a;
     font-family: 'Shippori Mincho B1', serif;
 }
 
@@ -75,8 +77,9 @@ img {
 }
 
 h1 {
-    /* font-family: 'Shippori Mincho B1', serif; */
+    font-family: 'Shippori Mincho B1', serif;
     font-weight: bolder;
+    text-shadow:rgb(68, 68, 77) !important;
     /* margin-top:15%; */
 }
 
@@ -102,5 +105,5 @@ p {
 
 /* Footer */
 .page-footer {
-    background-color: rgb(102, 36, 91);
+    background-color: #26a69a;
 }
