@@ -20,36 +20,51 @@ body {
 
 .banner {
     justify-content: center;
+    display:grid;
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg);
-    /* background-image: url(https://cdn.pixabay.com/photo/2018/04/29/01/15/coast-3358815_960_720.jpg); */
+    /* background-image: url(file:///C:/Users/wendy/Desktop/projects/portfolio/assets/images/grooves.webp); */
+    background-image: url(https://wallpapercave.com/wp/wp3387879.jpg);
+}
+
+/* .banner#card-content {
+    font-family: 'Shippori Mincho B1', serif;
+} */
+
+#bannerAction {
+    color: rgb(105, 165, 164) !important;
+}
+
+#bannerCard {
+    border-radius: 30px;
+    margin-top: 20%;
+    font-family: 'Shippori Mincho B1', serif;
 }
 
 #bannerTitle {
     text-align: center;
     justify-content: center;
     justify-items: center;
+    font-family: 'Shippori Mincho B1', serif;
 }
 
 /* NavBar */
 nav {
-    background-color:rgb(102, 36, 91);
+    background-color: rgb(105, 165, 164);;
     font-family: 'Shippori Mincho B1', serif;
 }
 
 img {
     /* float: left; */
     /* padding: 0px 3px 0px 0px; */
-    margin-top:30%;
+    margin-top:20%;
     /* margin-top:50px; */
 }
 
 /* About Me */
 .aboutTitle {
-    font-family: 'Shippori Mincho B1', serif;
     font-weight: bold;
     text-decoration: underline;
     font-size: 5px;
@@ -60,7 +75,7 @@ img {
 }
 
 h1 {
-    font-family: 'Shippori Mincho B1', serif;
+    /* font-family: 'Shippori Mincho B1', serif; */
     font-weight: bolder;
     /* margin-top:15%; */
 }
