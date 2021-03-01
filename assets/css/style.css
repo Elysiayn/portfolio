@@ -77,14 +77,14 @@ nav {
 img {
     /* float: left; */
     /* padding: 0px 3px 0px 0px; */
-    margin-top:20%;
+    margin-top:30%;
+    /* padding-top: 30%; */
     /* margin-top:50px; */
 }
 
 /* About Me */
-.actionCard {
+.aboutCard {
     font-family: 'Shippori Mincho B1', serif;
-    background-color: rgba(255, 255, 255, 1);
     font-weight: bolder;
     /* color: rgb(105, 165, 164) !important; */
     text-shadow: rgb(39, 39, 41) !important;
@@ -105,9 +105,9 @@ img {
     padding: 10px;
 }
 
-.aboutAction {
-    font-family: 'Shippori Mincho B1', serif !important;
-}
+/* .aboutAction {
+
+} */
 
 /* section 2 */
 
