@@ -15,6 +15,21 @@
     width: 100% !important;
 }
 
+h1 {
+    font-family: 'Shippori Mincho B1', serif;
+    font-weight: bolder;
+    text-shadow:rgb(48, 48, 53) !important;
+    /* margin-top:15%; */
+}
+
+p {
+    /* margin: .2; */
+    /* padding: .2; */
+    /* letter-spacing: 1px; */
+    /* font-size: 1.25rem; */
+    text-shadow:rgb(97, 99, 130);
+}
+
 /* Banner */
 
 .banner {
@@ -40,7 +55,8 @@
     border-radius: 30px;
     margin-top: 15%;
     font-family: 'Shippori Mincho B1', serif;
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(255, 255, 255, 1);
+    font-weight: bolder;
     /* color: rgb(105, 165, 164) !important; */
     text-shadow: rgb(39, 39, 41) !important;
     /* opacity: .5; */
@@ -66,29 +82,19 @@ img {
 }
 
 /* About Me */
+.actionCard {
+    font-family: 'Shippori Mincho B1', serif;
+    background-color: rgba(255, 255, 255, 1);
+    font-weight: bolder;
+    /* color: rgb(105, 165, 164) !important; */
+    text-shadow: rgb(39, 39, 41) !important;
+    /* opacity: .5; */
+}
+
 .aboutTitle {
     font-weight: bold;
     text-decoration: underline;
     font-size: 5px;
-}
-
-.aboutMeDiv {
-    float:left;
-}
-
-h1 {
-    font-family: 'Shippori Mincho B1', serif;
-    font-weight: bolder;
-    text-shadow:rgb(48, 48, 53) !important;
-    /* margin-top:15%; */
-}
-
-p {
-    /* margin: .2; */
-    /* padding: .2; */
-    /* letter-spacing: 1px; */
-    /* font-size: 1.25rem; */
-    text-shadow:rgb(97, 99, 130);
 }
 
 .aboutText {
@@ -96,6 +102,11 @@ p {
     font-weight: bolder;
     /* display: inline-block; */
     /* float:left; */
+    padding: 10px;
+}
+
+.aboutAction {
+    font-family: 'Shippori Mincho B1', serif !important;
 }
 
 /* section 2 */
