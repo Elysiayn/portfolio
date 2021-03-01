@@ -79,7 +79,7 @@ img {
 h1 {
     font-family: 'Shippori Mincho B1', serif;
     font-weight: bolder;
-    text-shadow:rgb(68, 68, 77) !important;
+    text-shadow:rgb(48, 48, 53) !important;
     /* margin-top:15%; */
 }
 
@@ -98,10 +98,34 @@ p {
     /* float:left; */
 }
 
+/* section 2 */
+
+.section2 {
+    justify-content: center;
+    /* display:grid; */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://lh4.googleusercontent.com/-pS0P2vPliuw/TXHp9KpKBoI/AAAAAAAAAO4/vpBrtPaZfHU/s1600/Free_High_resolution_nature_wallpaper_506478.jpg);
+}
+
 /* Middle Work Section Styling */
 .middle {
     background-color: rgb(97, 99, 130);
 } 
+
+/* section 3 */
+
+.section3 {
+    justify-content: center;
+    /* display:grid; */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://assets.wallpapersin4k.org/uploads/2017/04/Widescreen-Nature-Wallpapers-High-Resolution-17.jpg);
+}
 
 /* Footer */
 .page-footer {
