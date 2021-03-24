@@ -1,6 +1,6 @@
-# React Portfolio
+# Advanced CSS Challenge: Professional Portfolio
 
-### UCF Coding Boot-Camp Module 20 Challenge
+### UCF Coding Boot-Camp Module 2 Challenge
 
 ## Description
 
