@@ -105,13 +105,13 @@ img {
 }
 
 .mainImage{
-  min-height: 50vh;
+  /* max-height: 50vh !important; */
   margin: 3% !important;
 }
 
 .otherImage{
   margin: 3% !important;
-  max-height: 40vh !important;
+  max-height: 50vh !important;
 }
 
 
